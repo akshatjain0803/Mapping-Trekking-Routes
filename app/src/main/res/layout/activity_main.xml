@@ -6,4 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <include
+        layout="@layout/fragment_login_screen"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
