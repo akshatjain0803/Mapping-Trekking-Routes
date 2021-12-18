@@ -14,9 +14,9 @@ class LoginScreen : Fragment() {
         super.onCreate(savedInstanceState)
 
         bindingLoginScreen.register.setOnClickListener {
-            val transaction = requireActivity()?.supportFragmentManager.beginTransaction()
-            transaction?.replace(R.id.main, Fragment(R.layout.fragment_register_screen))
-            transaction?.commit()
+            val transaction = requireActivity().supportFragmentManager.beginTransaction()
+            transaction.replace(R.id.main, Fragment(R.layout.fragment_register_screen))
+            transaction.commit()
         }
     }
 
